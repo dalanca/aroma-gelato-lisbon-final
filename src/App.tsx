@@ -454,7 +454,286 @@ backgroundPosition: "center",
     </div>
   </div>
 </section>
+<a
+  href="https://g.page/r/CXKzpDbtccLIEBM/review"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-block",
+    marginTop: 40,
+    background: colors.gold,
+    color: colors.text,
+    padding: "16px 32px",
+    borderRadius: 999,
+    textDecoration: "none",
+    fontWeight: 600,
+    letterSpacing: 1,
+    boxShadow: "0 10px 24px rgba(0,0,0,0.12)",
+  }}
+>
+  Leave a Google Review
+</a>
+{/* SEO SECTION - BEST GELATO LISBON */}
+<section
+  style={{
+    background: colors.bg,
+    padding: "100px 40px",
+  }}
+>
+  <div
+    style={{
+      maxWidth: 1000,
+      margin: "0 auto",
+      textAlign: "center",
+    }}
+  >
+    <h2
+      style={{
+        fontSize: 42,
+        fontWeight: 300,
+        marginBottom: 24,
+      }}
+    >
+      Best Artisan Gelato in Lisbon
+    </h2>
 
+    <p
+      style={{
+        color: colors.textSoft,
+        fontSize: 18,
+        lineHeight: 1.9,
+        marginBottom: 24,
+      }}
+    >
+      Located in the heart of Chiado, aROMA Gelato Experience brings authentic
+      Italian gelato craftsmanship to Lisbon. Our gelato is created with a focus
+      on premium ingredients, smooth texture and balanced flavour, offering a
+      refined alternative to ordinary ice cream.
+    </p>
+
+    <p
+      style={{
+        color: colors.textSoft,
+        fontSize: 18,
+        lineHeight: 1.9,
+      }}
+    >
+      From classics such as Madagascar vanilla, pistachio and tiramisu to
+      seasonal specialties and elegant dolceria pairings, aROMA is designed for
+      guests looking for a memorable artisan gelato experience in Lisbon.
+    </p>
+  </div>
+</section>
+{/* SEO SECTION - SPECIALTY COFFEE */}
+<section
+  style={{
+    background: colors.bgAlt,
+    padding: "100px 40px",
+  }}
+>
+  <div
+    style={{
+      maxWidth: 1000,
+      margin: "0 auto",
+      textAlign: "center",
+    }}
+  >
+    <h2
+      style={{
+        fontSize: 42,
+        fontWeight: 300,
+        marginBottom: 24,
+      }}
+    >
+      Specialty Coffee in Chiado
+    </h2>
+
+    <p
+      style={{
+        color: colors.textSoft,
+        fontSize: 18,
+        lineHeight: 1.9,
+        marginBottom: 24,
+      }}
+    >
+      aROMA Gelato Experience combines artisan Italian gelato with a refined
+      specialty coffee experience in the centre of Lisbon. From expertly
+      prepared espresso and flat whites to indulgent affogato creations, our
+      coffee offering is designed to complement our dolceria and gelato menu.
+    </p>
+
+    <p
+      style={{
+        color: colors.textSoft,
+        fontSize: 18,
+        lineHeight: 1.9,
+      }}
+    >
+      Located in vibrant Chiado, aROMA is a destination for guests looking to
+      enjoy elegant desserts, quality coffee and relaxed hospitality in one of
+      Lisbon’s most iconic neighbourhoods.
+    </p>
+  </div>
+</section>
+{/* SEO SECTION - DOLCERIA & DESSERTS */}
+<section
+  style={{
+    background: colors.bg,
+    padding: "100px 40px",
+  }}
+>
+  <div
+    style={{
+      maxWidth: 1000,
+      margin: "0 auto",
+      textAlign: "center",
+    }}
+  >
+    <h2 style={{ fontSize: 42, fontWeight: 300, marginBottom: 24 }}>
+      Italian Dolceria & Desserts in Lisbon
+    </h2>
+
+    <p style={{ color: colors.textSoft, fontSize: 18, lineHeight: 1.9, marginBottom: 24 }}>
+      Beyond gelato, aROMA brings the spirit of Italian dolceria to Lisbon with
+      cakes, pastries and elegant dessert creations designed for every moment of
+      the day.
+    </p>
+
+    <p style={{ color: colors.textSoft, fontSize: 18, lineHeight: 1.9 }}>
+      From tiramisu and seasonal cakes to pastel de nata with gelato, our menu
+      celebrates indulgence, craftsmanship and the pleasure of sharing beautiful
+      desserts in Chiado.
+    </p>
+  </div>
+</section>
+{/* FAQ SECTION */}
+<section
+  style={{
+    background: colors.bgAlt,
+    padding: "100px 40px",
+  }}
+>
+  <div
+    style={{
+      maxWidth: 900,
+      margin: "0 auto",
+    }}
+  >
+    <h2
+      style={{
+        fontSize: 42,
+        fontWeight: 300,
+        marginBottom: 50,
+        textAlign: "center",
+      }}
+    >
+      Frequently Asked Questions
+    </h2>
+
+    {[
+      {
+        q: "What makes artisan gelato different from regular ice cream?",
+        a: "Artisan gelato is made in smaller batches with less air and a focus on premium ingredients, resulting in a smoother texture and richer flavour experience.",
+      },
+      {
+        q: "Where can I find the best gelato in Lisbon?",
+        a: "aROMA Gelato Experience in Chiado offers authentic Italian artisan gelato, specialty coffee and elegant desserts in the heart of Lisbon.",
+      },
+      {
+        q: "Do you serve specialty coffee?",
+        a: "Yes. aROMA serves espresso, flat whites, affogato and other specialty coffee creations designed to pair beautifully with our gelato and desserts. We are truly farm to cup, not only do we roast our coffee, we grow it! We have our own plantations in South America and Africa.",
+      },
+      {
+        q: "Where is aROMA Gelato Experience located?",
+        a: "aROMA Gelato Experience is located in Chiado, one of Lisbon’s most vibrant and historic neighbourhoods.",
+      },
+    ].map((faq) => (
+      <div
+        key={faq.q}
+        style={{
+          background: "white",
+          padding: 30,
+          borderRadius: 24,
+          marginBottom: 20,
+          border: "1px solid #ead8dc",
+          boxShadow: "0 10px 30px rgba(0,0,0,0.04)",
+        }}
+      >
+        <h3
+          style={{
+            marginBottom: 14,
+            fontSize: 22,
+            fontWeight: 500,
+          }}
+        >
+          {faq.q}
+        </h3>
+
+        <p
+          style={{
+            color: colors.textSoft,
+            lineHeight: 1.8,
+            fontSize: 17,
+          }}
+        >
+          {faq.a}
+        </p>
+      </div>
+    ))}
+  </div>
+</section>
+{/* SEO SECTION - EXPERIENCE CHIADO */}
+<section
+  style={{
+    background: colors.bg,
+    padding: "100px 40px",
+  }}
+>
+  <div
+    style={{
+      maxWidth: 1000,
+      margin: "0 auto",
+      textAlign: "center",
+    }}
+  >
+    <h2
+      style={{
+        fontSize: 42,
+        fontWeight: 300,
+        marginBottom: 24,
+      }}
+    >
+      Experience Chiado
+    </h2>
+
+    <p
+      style={{
+        color: colors.textSoft,
+        fontSize: 18,
+        lineHeight: 1.9,
+        marginBottom: 24,
+      }}
+    >
+      Located in the heart of Chiado, aROMA Gelato Experience offers a refined
+      pause in one of Lisbon’s most iconic neighbourhoods. Surrounded by
+      historic streets, boutiques and cultural landmarks, our gelateria and
+      dolceria is designed for both locals and visitors exploring the city.
+    </p>
+
+    <p
+      style={{
+        color: colors.textSoft,
+        fontSize: 18,
+        lineHeight: 1.9,
+      }}
+    >
+      Whether enjoying artisan gelato after a walk through Bairro Alto or
+      relaxing with specialty coffee during an afternoon in Chiado, aROMA brings
+      together Italian craftsmanship and Lisbon lifestyle in a unique hospitality
+      experience.
+    </p>
+  </div>
+</section>
 {/* MEDIA MENTIONS */}
 <section
   style={{
@@ -570,41 +849,54 @@ backgroundPosition: "center",
     gap: 20,
   }}
 >
-      {[
-  gelatoCounter,
-  coffeePhoto,
-  interiorPhoto,
-  pistachioGelato,
-].map((img) => (
-        <img
-          key={img}
-          src={img}
-          loading="lazy"
-          style={{
-            width: "100%",
-            aspectRatio: "1 / 1",
-            objectFit: "cover",
-            borderRadius: 22,
-          }}
-        />
-      ))}
-    </div>
-
-    <a
-      href="https://instagram.com"
-      target="_blank"
-      style={{
-        display: "inline-block",
-        marginTop: 40,
-        background: colors.text,
-        color: "white",
-        padding: "14px 28px",
-        borderRadius: 999,
-        textDecoration: "none",
-      }}
-    >
-      Follow us on Instagram
-    </a>
+{[
+  {
+    image: gelatoCounter,
+    alt: "Artisan gelato at aROMA Gelato Experience in Lisbon",
+  },
+  {
+    image: coffeePhoto,
+    alt: "Specialty coffee at aROMA Gelato Experience in Lisbon",
+  },
+  {
+    image: interiorPhoto,
+    alt: "Luxury interior of aROMA Gelato Experience in Chiado Lisbon",
+  },
+  {
+    image: pistachioGelato,
+    alt: "Sicilian pistachio gelato in Lisbon",
+  },
+].map((item) => (
+  <img
+    key={item.alt}
+    src={item.image}
+    alt={item.alt}
+    loading="lazy"
+    style={{
+      width: "100%",
+      aspectRatio: "1 / 1",
+      objectFit: "cover",
+      borderRadius: 22,
+    }}
+  />
+))}
+</div>
+<a
+  href="https://www.instagram.com/ladolceria.aroma.lisbon/"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-block",
+    marginTop: 40,
+    background: colors.text,
+    color: "white",
+    padding: "14px 28px",
+    borderRadius: 999,
+    textDecoration: "none",
+  }}
+>
+  Follow us on Instagram
+</a>
   </div>
 </section>
 
